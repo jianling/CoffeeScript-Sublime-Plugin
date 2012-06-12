@@ -73,6 +73,13 @@ You can access the commands either using the command palette or via shortcuts.
 
 # Building
 
+on Windows you should edit CoffeeScript.sublime-build to:
+{
+    "cmd": ["coffee.cmd","-c","$file"],
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "selector": "source.coffee"
+}
+
 Hitting `F7` (Tools - Build) will run the Cake task 'sbuild'.
 
 # Settings
