@@ -80,6 +80,8 @@ on Windows you should edit CoffeeScript.sublime-build to:
     "selector": "source.coffee"
 }
 
+see:[building-coffeescript-with-sublime-on-windows/](http://kevinpelgrims.wordpress.com/2011/12/28/building-coffeescript-with-sublime-on-windows/)
+
 Hitting `F7` (Tools - Build) will run the Cake task 'sbuild'.
 
 # Settings
